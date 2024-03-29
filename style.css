@@ -1,0 +1,57 @@
+/* body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 600px;
+  margin: 32px auto;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+a[data-visited] {
+  border-bottom: 2px dashed rgb(250, 204, 21);
+}
+
+a[data-visited]:after {
+  content: "    ✓";
+}
+
+ol li {
+  counter-increment: lanre;
+}
+
+ol li::before {
+  content: counter(lanre) ' . ';
+  color: blue;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ol {
+  list-style: none;
+  counter-reset: lanre;
+} */
+
+:root {
+  color-scheme: light dark;
+  --primary-color: light-dark (#333, #fafafa);
+  --primary-background: light-dark (#e4e4e4, #121212);
+  --highlight-color: light-dark (hotpink, lime);
+}
+/* 
+body {
+  color: CanvasText;
+  background-color: light-dark(#ccc, #333);
+} */
+body {
+  color: var(--primary-color);
+  background-color: var(--primary-background);
+  font-family: sans-serif;
+}
+
+/* mark {
+  background: var(--highlight-color);
+} */

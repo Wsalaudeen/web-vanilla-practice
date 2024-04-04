@@ -702,3 +702,72 @@
 // }
 
 // console.log(typeof sayHi());
+
+// const pets = [
+//   { type: "dog", name: "Bolt" },
+//   { type: "cat", name: "mittens" },
+//   { type: "dog", name: "Rex" },
+// ];
+
+// const groupedByType = pets.reduce((acc, pet) => {
+//   (acc[pet.type] = acc[pet.type] || []).push(pet);
+//   return acc;
+// }, {});
+
+// console.log(groupedByType);
+
+// const groupedByType1 = Object.groupBy(pets, (pet) => pet.type);
+// console.log(groupedByType1);
+
+// Array destructuring
+// Here’s an example of how an array is destructured into variables
+
+// let array = ["cristiano", "ronaldo"];
+
+// let [firstName, lastName] = array;
+
+//destructing assignment
+//sets firstName = array[0]
+//sets lastName = array[1]
+
+// console.log(firstName); //Output: cristiano
+// console.log(lastName); //Output: ronaldo
+
+// // Swap Variables trick
+
+// let user1 = "bayonle";
+// let user2 = "hamzah";
+
+//applying destructuring assignment for the swap variable trick
+
+// [user1, user2] = [user2, user1];
+
+// console.log("user 1:", user1); //Output: User 1: hamzah
+// console.log("user 2:", user2); // Output: User 2: bayonle
+// console.log(user1, user2); //Output  hamzah bayonle (successfully swapped!)
+
+// The syntax is:
+//"Key" in object;
+
+let currentUser = {
+  name: "Smith",
+  age: 35,
+  country: "England",
+};
+
+console.log("name" in currentUser); // returns true, currentUser.name exists
+
+console.log("age" in currentUser); // returns true, currentUser.age exists
+
+console.log("country" in currentUser); // returns true, currentUser.country exists
+
+console.log("city" in currentUser); // returns false currentUser.city doesn't exist
+
+// When an object property is present but holds the value "undefined."
+
+let object = {
+  test: undefined,
+};
+
+console.log("test" in object); // true,indeed, the property does exist!
+console.log(object.test); // it's undefined, does it mean there's no such property????

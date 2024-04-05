@@ -749,25 +749,32 @@
 // The syntax is:
 //"Key" in object;
 
-let currentUser = {
-  name: "Smith",
-  age: 35,
-  country: "England",
-};
+// let currentUser = {
+//   name: "Smith",
+//   age: 35,
+//   country: "England",
+// };
 
-console.log("name" in currentUser); // returns true, currentUser.name exists
+// console.log("name" in currentUser); // returns true, currentUser.name exists
 
-console.log("age" in currentUser); // returns true, currentUser.age exists
+// console.log("age" in currentUser); // returns true, currentUser.age exists
 
-console.log("country" in currentUser); // returns true, currentUser.country exists
+// console.log("country" in currentUser); // returns true, currentUser.country exists
 
-console.log("city" in currentUser); // returns false currentUser.city doesn't exist
+// console.log("city" in currentUser); // returns false currentUser.city doesn't exist
 
 // When an object property is present but holds the value "undefined."
 
-let object = {
-  test: undefined,
-};
+// let object = {
+//   test: undefined,
+// };
 
-console.log("test" in object); // true,indeed, the property does exist!
-console.log(object.test); // it's undefined, does it mean there's no such property????
+// console.log("test" in object); // true,indeed, the property does exist!
+// console.log(object.test); // it's undefined, does it mean there's no such property????
+
+printLanzy();
+function printLanzy() {
+  console.log("lanzy is my boy and loyal to the core");
+}
+
+// printLanzy();

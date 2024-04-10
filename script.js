@@ -778,3 +778,7 @@ function printLanzy() {
 }
 
 // printLanzy();
+
+const nameA = "lanre";
+const nameB = "Bayo";
+console.log(`${nameA} ${nameB}`);

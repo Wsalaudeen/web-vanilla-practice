@@ -781,4 +781,5 @@ function printLanzy() {
 
 const nameA = "lanre";
 const nameC = "Bayo";
-console.log(`${nameA} ${nameC}`);
+const age = 20;
+console.log(`${nameA} ${nameC} is ${age} years old`);

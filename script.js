@@ -772,14 +772,30 @@
 // console.log("test" in object); // true,indeed, the property does exist!
 // console.log(object.test); // it's undefined, does it mean there's no such property????
 
-printLanzy();
-function printLanzy() {
-  console.log("lanzy is my boy and loyal to the core");
-}
+// printLanzy();
+// function printLanzy() {
+//   console.log("lanzy is my boy and loyal to the core");
+// }
 
 // printLanzy();
 
-const nameA = "lanre";
-const nameC = "Bayo";
-const age = 20;
-console.log(`${nameA} ${nameC} is ${age} years old`);
+// const nameA = "lanre";
+// const nameC = "Bayo";
+// const age = 20;
+// console.log(`${nameA} ${nameC} is ${age} years old`);
+
+//Object groupBy
+
+const array = [1, 2, 3, 4, 5, 6];
+
+const grouped = Object.groupBy(array, (each) => {
+  return each % 2 === 0 ? "even" : "odd";
+});
+
+console.log(grouped);
+
+/*
+ * odd:Array(3), even: Array(3)
+ * even: (3) [2,4,6]
+ * odd: (3) [1,3,5]
+ */

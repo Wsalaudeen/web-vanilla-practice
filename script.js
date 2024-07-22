@@ -814,11 +814,58 @@
 
 // console.log(groupedBy); // Output { odd:[1,3,5], even:[2,4,6]}
 
-let now = new Date();
-console.log(now);
+// let now = new Date();
+// console.log(now);
 
-let nowDate = new Date(0);
-console.log(nowDate);
+// let nowDate = new Date(0);
+// console.log(nowDate);
 
-let nowDate1 = new Date(24 * 3600 * 1000);
-console.log(nowDate1);
+// let nowDate1 = new Date(24 * 3600 * 1000);
+// console.log(nowDate1);
+
+// let dec31_1969 = new Date(-24 * 3600 * 1000);
+// console.log(dec31_1969);
+
+// let date = new Date();
+// console.log(date.getUTCFullYear());
+// console.log(date.getUTCMonth());
+// console.log(date.getUTCDate());
+// console.log(date.getTimezoneOffset());
+
+// // new Date (year,month,date,hours,minutes,seconds,ms)
+
+// let autoDate = new Date(2021, 0, 32);
+// console.log(autoDate);
+
+// let leapYear = new Date(2016, 1, 28);
+// leapYear.setDate(leapYear.getDate() + 2);
+// console.log(leapYear);
+
+// let afterDate = new Date();
+// afterDate.setSeconds(afterDate.getSeconds() + 70);
+// console.log(afterDate);
+
+// let month = new Date(2016, 0, 2);
+// month.setDate(1);
+// // alert(month);
+
+// month.setDate(0);
+// console.log(month);
+
+// let date = new Date();
+// console.log(+date);
+// let date1 = new Date();
+// console.log(date1.getTime());
+
+// let start = new Date();
+// let end = new Date();
+// console.log(`The loop took ${end - start} ms`);
+// console.log(`The loop took ${end - start} ms`);
+
+// let start = new Date(0);
+// console.log(start);
+
+// let end = Date.now();
+// console.log(end);
+
+// console.log(`The loop took ${end - start} ms`);
